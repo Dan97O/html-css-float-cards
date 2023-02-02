@@ -22,3 +22,56 @@
 .text {
     text-align: center;
 }
+
+/* .debug {
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+} */
+.cards{
+    padding-top: 50px;
+}
+
+.clearfix::after {
+    margin-top: 50px;
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.card{
+    height: 50px;
+    width: auto;
+    background-color: #0f0e17;
+    color: white;
+    float: left;
+}
+
+img {
+    height: 50px;
+}
+
+strong {
+    font-size: 10px;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+
+p{
+   
+}
+
+.main-card{ 
+    padding-top: 5px;
+    font-size: 6px;
+    padding-left: 5px;
+
+}
+
+.link{
+    font-size: 6px;
+    padding-left: 5px;
+    color: #478a9a;
+    text-decoration: none;
+    
+}
