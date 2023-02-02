@@ -5,8 +5,6 @@
     font-family: Arial, Helvetica, sans-serif ;
 }
 
-
-
 .app-header h1{
     color: #e53170;
     text-align: center;
@@ -15,7 +13,7 @@
 
 .container {
     margin: auto;
-    max-width: 1000px;
+    max-width: 800px;
     padding-top: 50px;
 }
 
@@ -24,11 +22,6 @@
     margin-bottom: 50px;
 }
 
-.cards {
-   /* display: inline-block;  */
-}
-
-
 .clearfix::after {
     content:'';
     display: table;
@@ -36,20 +29,17 @@
 }
 
 .card{
-    
     margin-right: 20px;
     margin-bottom: 20px;
     width: calc(90% / 3);
     background-color: #0f0e17;
     float: left;
-    
 }
 
 img {
     height: 50px;
-    background-size: cover;
+    background-size: contain;
     float: left;
-    
 }
 
 strong {
@@ -57,12 +47,10 @@ strong {
     font-size: 10px;
     padding-right: 20px;
     padding-left: 5px;
-   
 }
 
 
  .main-card{ 
-   
     color: white;
     padding-top: 5px;
     margin-left: 55px;
@@ -75,5 +63,4 @@ strong {
     padding-top: 10px;
     color: #478a9a;
     text-decoration: none;
-    
 }
