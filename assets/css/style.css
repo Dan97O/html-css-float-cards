@@ -12,3 +12,13 @@
     text-align: center;
     padding-top: 20px;
 }
+
+.container {
+    margin: auto;
+    width: 50%;
+    padding-top: 50px;
+}
+
+.text {
+    text-align: center;
+}
