@@ -21,57 +21,59 @@
 
 .text {
     text-align: center;
+    margin-bottom: 50px;
 }
 
-/* .debug {
-    height: 50px;
-    width: 50px;
-    background-color: aqua;
-} */
-.cards{
-    padding-top: 50px;
+.cards {
+    display: inline-block;
 }
+
 
 .clearfix::after {
-    margin-top: 50px;
-    content: '';
+    content:'';
     display: table;
     clear: both;
 }
 
 .card{
+    
+    margin-right: 20px;
     height: 50px;
-    width: auto;
+    width: calc(100% / 3);
     background-color: #0f0e17;
-    color: white;
     float: left;
 }
 
 img {
     height: 50px;
+    background-size: cover;
+    /* float: left; */
 }
 
 strong {
+    color: white;
     font-size: 10px;
     padding-right: 20px;
     padding-left: 5px;
+    /* float: left; */
 }
 
-p{
+
+ .main-card{ 
    
-}
-
-.main-card{ 
+    color: white;
     padding-top: 5px;
-    font-size: 6px;
     padding-left: 5px;
+    font-size: 6px;
+    /* float: left; */
 
-}
+} 
 
 .link{
     font-size: 6px;
     padding-left: 5px;
+    padding-top: 10px;
     color: #478a9a;
     text-decoration: none;
-    
+    /* float: left; */
 }
