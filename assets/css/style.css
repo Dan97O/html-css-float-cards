@@ -10,7 +10,16 @@
     text-align: center;
     padding-top: 20px;
 }
+/* /app-header */
 
+.clearfix::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+
+/* #region Utilities */
 .container {
     margin: auto;
     max-width: 800px;
@@ -22,21 +31,18 @@
     margin-bottom: 50px;
 }
 
-.clearfix::after {
-    content:'';
-    display: table;
-    clear: both;
-}
+
 
 .card{
     margin-right: 20px;
     margin-bottom: 20px;
-    width: calc(90% / 3);
+    width: calc(90% / 3) ;
     background-color: #0f0e17;
     float: left;
 }
 
 img {
+
     height: 50px;
     background-size: contain;
     float: left;
@@ -64,3 +70,4 @@ strong {
     color: #478a9a;
     text-decoration: none;
 }
+/* #endregion Utilities */
